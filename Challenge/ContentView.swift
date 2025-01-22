@@ -6,8 +6,5 @@ struct ContentView: View {
             Color.green
                 .ignoresSafeArea()
         }
-        .onAppear {
-            LeetCode.PalindromeNumber.test()
-        }
     }
 }
