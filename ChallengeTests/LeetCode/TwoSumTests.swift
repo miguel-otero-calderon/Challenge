@@ -27,9 +27,6 @@ final class TwoSumTests: XCTestCase {
         let result = sut.twoSum(nums, target)
         
         // Assert
-        XCTAssertEqual(result, [0, 1], "Los indices no son correctos, deberian ser [0,1] ya que nums[0] +  num[1] = 9")
-        
-        
-        
+        XCTAssertEqual(result, [], "Debe retornar [], por que no hay sumando para sumar 10.")
     }
 }
